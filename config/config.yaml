@@ -1,0 +1,24 @@
+model_paths:
+  abnormal_model: "C:/Users/PranithaReddy/Desktop/mini project/theft detection/script/model/abnormal_behavior_model.h5"
+  face_mask_model: "C:/Users/PranithaReddy/Desktop/mini project/theft detection/model/face_mask_detection_model.h5"
+
+video_settings:
+  input_video: "C:/Users/PranithaReddy/Desktop/mini project/theft detection/videos/input_video.mp4"
+  output_video: "C:/Users/PranithaReddy/Desktop/mini project/theft detection/videos/output_video.mp4"
+  frame_rate: 30
+
+detection_thresholds:
+  abnormal_behavior: 0.7
+  mask_detection: 0.5
+
+alert_settings:
+  enable_alert: true
+  alert_message: "Abnormal behavior detected!"
+
+logging:
+  log_file: "C:/Users/PranithaReddy/Desktop/mini project/theft detection/logs/detection.log"
+  log_level: "INFO"
+
+system_settings:
+  use_gpu: true
+  gpu_memory_fraction: 0.8
